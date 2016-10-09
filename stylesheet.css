@@ -147,19 +147,12 @@ hr {
 }
 
 .projectRow {
-	padding-top: 50px;
-    padding-bottom: 200px;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
-#row1textLeft{
-    text-align: right;
-    padding-top: 100px;
-}
-
-#row1textRight{
-    text-align: left;
-    padding-top: 100px;
-}
 
 .projectButton {
     width: 200px;
