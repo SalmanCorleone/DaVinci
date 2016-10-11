@@ -15,7 +15,7 @@ body {
 hr {
     margin-top: 20px;
     border-color: rgb(131, 171, 216);
-    border-width: 3px;
+    border-width: 4px;
     max-width: 250px;
 }
 
@@ -181,15 +181,43 @@ hr {
 
 .contIcon {
     width: 50px;
-    transition: .2s;
-    opacity: .8;
+    /*transition: .2s;*/
+    opacity: 1;
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .contIcon:hover {
     opacity: 1;
-    -webkit-transform: scale(2);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
+
+#contactBox {
+    padding: 20px;
+
+    background: #000c21;
+
+	font-family: exolight;
+    text-align: left;
+    color: white;
+}
+#contactBox p{
+	font-size: 18px;
+
+}
+
+.contGlyph{
+    padding-right: 10px;
+}
+
 
 
 
