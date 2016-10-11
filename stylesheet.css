@@ -177,12 +177,15 @@ hr {
 
 .contIconRow {
     letter-spacing: 50px;
+    padding: 50px;
+    text-align: center;
 }
 
 .contIcon {
     width: 50px;
     /*transition: .2s;*/
     opacity: 1;
+    padding-bottom: 20px;
 
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -192,7 +195,6 @@ hr {
 }
 
 .contIcon:hover {
-    opacity: 1;
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -o-transform: scale(1.2);
