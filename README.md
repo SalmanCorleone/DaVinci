@@ -1,5 +1,5 @@
 # DaVinci
-A Sample BootStrap Project for Military purpose
+A Sample BootStrap Project for General purpose
   
     
     https://salmancorleone.github.io/DaVinci/
